@@ -1,1 +1,1 @@
-tabula-pytabula-py
+tabula-py>=2.3.0,<2.4.0
