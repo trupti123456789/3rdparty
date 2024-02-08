@@ -2,7 +2,8 @@
 Resource        com.robot
 Library        my_tabula.py
 Library        QWeb
-
+Suite Setup               Setup Browser
+Suite Teardown            End suite
 *** Test Cases ***
 Read PDF Table Example
     Appstate                home
