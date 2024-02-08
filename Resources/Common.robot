@@ -1,9 +1,9 @@
 *** Settings ***
 
 Library        my_tabula.py
-
+Library        QWeb
 
 *** Test Cases ***
 Read PDF Table Example
-                     
-   Read Pdf      {CURDIR}/../Data/QuotePDF.pdf            
+   Use pdf         {CURDIR}/../Data/QuotePDF.pdf             
+   #Read Pdf      {CURDIR}/../Data/QuotePDF.pdf            
