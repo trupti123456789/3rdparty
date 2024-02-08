@@ -7,12 +7,11 @@ Library        QWeb
 Read PDF Table Example
     Appstate                home
     LaunchApp               Sales
-    ClickText               Show more navigation items
-    ClickText               Groups
-    ClickText               newset
-   
+    Clicktext               Quote
+    Goto                    https://secureworks--qa.sandbox.lightning.force.com/lightning/r/Quote__c/a5nD10000002cApIAI/view
+    ##reading pdf
     Expect File Download
-    Clicktext               Download
+    Clicktext               PDF
 
     # Verify the PDF has been downloaded and get the file path
 
@@ -21,6 +20,6 @@ Read PDF Table Example
     # Set the downloaded PDF file as the active PDF+
 
     UsePdf                  ${file_path}
-   Expect File Download
-   Use pdf         {CURDIR}/../Data/QuotePDF.pdf             
-   #Read Pdf      {CURDIR}/../Data/QuotePDF.pdf            
+  
+            
+   Read Pdf Table       ${file_path}          
