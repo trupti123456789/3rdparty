@@ -1,6 +1,6 @@
 *** Settings ***
 
-Library        tabula.py
+Library       my_tabula.py
 
 *** Test Cases ***
 Read PDF Table Example
