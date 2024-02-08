@@ -23,4 +23,4 @@ Read PDF Table Example
     UsePdf                  ${file_path}
   
             
-   Read Pdf        ${file_path}          
+    Read Pdf      ${file_path}          
