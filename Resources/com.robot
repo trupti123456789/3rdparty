@@ -1,8 +1,7 @@
 *** Settings ***
 Library                         QForce
 Library                         QWeb
-Suite Setup               Setup Browser
-Suite Teardown            End suite
+
 *** Variables ***
 # IMPORTANT: Please read the readme.txt to understand needed variables and how to handle them!!
 ${initial_sleep_time}           5
