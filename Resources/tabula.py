@@ -1,4 +1,4 @@
-# my_pdf_library.py
+my_pdf_library.py
 from tabula import read_pdf
 from robot.api import logger
 
