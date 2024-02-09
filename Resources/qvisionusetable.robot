@@ -3,7 +3,7 @@ Resource                    com.robot
 Library                     QWeb
 Suite Setup                 Setup Browser
 Suite Teardown              End suite
-
+Library                QVision
 *** Test Cases ***
     Appstate                home
     LaunchApp               Sales
@@ -23,5 +23,5 @@ Suite Teardown              End suite
     ${pdf_text}=            GetPdfText
 
     # Example of reading table cell data from a UI table (hypothetical for PDF context)
-    ${cell_data}=           Read Table Cell             row_header=Product Name    column_header=Price
+    ${cell_data}=           QVision.Read Table Cell             row_header=Product Name    column_header=Price
     Log                     ${cell_data}
