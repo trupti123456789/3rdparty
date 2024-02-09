@@ -29,7 +29,7 @@ Read PDF Table Example
     LaunchApp               Sales
     ClickText               Show more navigation items
     ClickText               Groups
-    ClickText               newset
+    ClickText               newset1
    
     Expect File Download
     Clicktext               Download
