@@ -27,7 +27,7 @@ Read PDF Table Example
     
     Appstate                home
     LaunchApp               Sales
-    #ClickText               Show more navigation items
+    ClickText               Show more navigation items
     ClickText               Groups
     ClickText               newset1
    
@@ -40,4 +40,6 @@ Read PDF Table Example
      # Set the downloaded PDF file as the active PDF+
 
      UsePdf                  ${file_path}
+    ${pdf_text}=            GetPdfText
+
      Read Pdf      ${file_path}  
