@@ -7,7 +7,7 @@ Suite Teardown            End suite
 *** Test Cases ***
 Read PDF Table Example MuPdf
 
-    [Tags]            mupdg
+    [Tags]            mupdf
  
      Appstate                home
     LaunchApp               Sales
