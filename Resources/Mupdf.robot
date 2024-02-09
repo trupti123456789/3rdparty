@@ -11,7 +11,7 @@ Read PDF Table Example MuPdf
  
      Appstate                home
     LaunchApp               Sales
-    ClickText               Show more navigation items
+    #ClickText               Show more navigation items
     ClickText               Groups
     ClickText               newset1
    
