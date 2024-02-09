@@ -6,13 +6,13 @@ Library                         QWeb
 # IMPORTANT: Please read the readme.txt to understand needed variables and how to handle them!!
 ${initial_sleep_time}           5
 ${BROWSER}                      chrome
-${username}                     mounika.t@cloudfulcrum.com.qa
-${password}                     Secureworks@1234
-${login_url}                    https://secureworks--qa.sandbox.my.salesforce.com       # Salesforce instance. NOTE: Should be overwritten in CRT variables
+# ${username}                     mounika.t@cloudfulcrum.com.qa
+# ${password}                     Secureworks@1234
+# ${login_url}                    https://secureworks--qa.sandbox.my.salesforce.com       # Salesforce instance. NOTE: Should be overwritten in CRT variables
 ${home_url}                     ${login_url}/lightning/page/home
-# ${username}                     trupti@practice.com
-# ${password}                     Meera@123456
-# ${login_url}                    https://login.salesforce.com
+${username}                     trupti@practice.com
+${password}                     Meera@123456
+${login_url}                    https://login.salesforce.com
 
 *** Keywords ***
 Setup Browser
