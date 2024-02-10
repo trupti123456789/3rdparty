@@ -28,5 +28,5 @@ Read PDF Table Example MuPdf
 
     #  extract_tables     ${file_path}  
 
-       ${pdf_text}=         read_pdf_table           ${file_path}
-    Log                      ${pdf_text}
+       ${pdf_table}=         read_pdf_table           ${file_path}
+    Log                     ${pdf_table}
