@@ -28,7 +28,7 @@ Read PDF Table Example
     
     Appstate                home
     LaunchApp               Sales
-    ClickText               Show more navigation items
+    #ClickText               Show more navigation items
     ClickText               Groups
     ClickText               newset1
    
