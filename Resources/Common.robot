@@ -1,6 +1,6 @@
 *** Settings ***
 Resource                        com.robot
-Library                         my_tabula2.py
+Library                         my_tabula.py
 Library                         QWeb
 Suite Setup                     Setup Browser
 Suite Teardown                  End suite
