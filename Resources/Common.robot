@@ -6,6 +6,7 @@ Suite Setup               Setup Browser
 Suite Teardown            End suite
 *** Test Cases ***
 Read PDF Table Example
+    [Tags]            tabula 1
     # Appstate                home
     # LaunchApp               Sales
     # Clicktext               Quote
