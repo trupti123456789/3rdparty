@@ -23,5 +23,7 @@ Tables
     # Set the downloaded PDF file as the active PDF+
 
     UsePdf                  ${file_path}
-    ${pdf_table}=        Extract Pdf Tables           ${file_path}
-    Log                     ${pdf_table}
+    
+    ${pdf_text}=            GetPdfText
+
+     Extract Pdf Tables         ${file_path}  
