@@ -10,7 +10,7 @@ Tables
     [Tags]                tabula 2
     Appstate                home
     LaunchApp               Sales
-    ClickText               Show more navigation items
+    #ClickText               Show more navigation items
     ClickText               Groups
     ClickText               newset1
 
