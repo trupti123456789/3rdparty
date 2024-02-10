@@ -2,7 +2,7 @@ from tabula import read_pdf
 from robot.api import logger
 
 class MyPDFLibrary:
-    def read_pdf (self, pdf_path, pages="all"):
+    def read_pdf (self, ${file_path}, pages="all"):
         """Reads tables from a PDF and logs all tables."""
         try:
             # Attempt to read tables from the PDF
