@@ -43,4 +43,4 @@ Read PDF Table Example
     UsePdf                  ${file_path}
     ${pdf_text}=            GetPdfText
 
-    Read Pdf                ${file_path}
+     Read Pdf Table               ${file_path}
