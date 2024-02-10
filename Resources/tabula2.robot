@@ -6,6 +6,7 @@ Suite Setup               Setup Browser
 Suite Teardown            End suite
 
 *** Test Cases ***
+Tables
     [Tags]                tabula 2
     Appstate                home
     LaunchApp               Sales
