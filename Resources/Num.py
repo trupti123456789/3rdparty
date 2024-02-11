@@ -1,2 +1,3 @@
-[]: def  add_num(a,b):
+import   py
+[]:  def  add_num(a,b):
          return int(a)+int(b)
