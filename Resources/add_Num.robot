@@ -3,5 +3,6 @@ Library    Num.py
 
 *** Test Cases ***
 Minimal task
-         ${c}  Add Num  1 2
+   ${Result} =   Add Two Numbers        1    2
+   Log           ${Result}
         
