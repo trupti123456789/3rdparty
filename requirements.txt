@@ -1,2 +1,2 @@
-tabula-py>=2.3.0,<2.4.0
-PyMuPDF==1.18.5  # Specify the version you need
+
+Python
