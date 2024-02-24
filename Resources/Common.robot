@@ -47,5 +47,5 @@ Read PDF Table Example
     ${Read_Table}          Read Pdf Table          ${file_path}
     LogScreenshot
 #Extract Tables From PDF And Save As CSV
-    ${tables}=    Extract Tables   ${Read_Table} 
-    Tables To CSV    ${tables}   ${Read_Table} 
+    ${tables}=    Extract Tables   ${file_path}
+    Tables To CSV    ${tables}  ${file_path}
