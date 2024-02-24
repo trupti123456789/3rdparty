@@ -48,4 +48,6 @@ Read PDF Table Example
     LogScreenshot
 #Extract Tables From PDF And Save As CSV
     ${tables}=    Extract Tables   ${file_path}
+     LogScreenshot
     Tables To CSV    ${tables}  ${file_path}
+     LogScreenshot
