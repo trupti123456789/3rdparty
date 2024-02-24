@@ -44,3 +44,4 @@ Read PDF Table Example
     ${pdf_text}=                GetPdfText
 
        Read Pdf Table         ${file_path}
+       LogScreenshot
