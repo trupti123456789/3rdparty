@@ -1,5 +1,5 @@
 *** Settings ***
-Resource                   ../Resources/Common.robot
+Resource            Common.robot
 Library                    QWeb
 Library                    QForce
 Suite Setup                Setup Browser
