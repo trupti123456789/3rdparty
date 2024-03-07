@@ -8,7 +8,7 @@ Library                    QVision
 Library                    DataDriver                  reader_class=TestDataApi    name=Sec3.xlsx
 *** Test Cases ***
 BS3
-    [Tags]                 BS3
+    [Tags]                 thursday
     #Login to QA
     Run keywords           Home
     #Article creation
