@@ -18,7 +18,7 @@ BS3
     Clicktext              Content Catalog
     Clicktext              Next
     UseModal               On
-    TypeText               Title                       marchSub
+    TypeText               Title                       marchSub1                ##
     Verifytext             URL Name
     MultiPickList          Article Audience           Sales Marketing
     Sleep                  2
@@ -32,9 +32,9 @@ BS3
     ClickText              Select a List View: Knowledge
     ClickText              All Articles
     ClickElement           xpath= //span[contains(text(),'Created Date')]
-    ClickText              marchSub
+    ClickText              marchSub1                                               ##
     #verifyinf the article data
-    Verifyfield            Title                        marchSub
+    Verifyfield            Title                        marchSub1
     VerifyAll              URL Name,Knowledge Community URL
     VerifyAll              Article Audience,Topic,Sub-Topic
     #publishing the article
@@ -47,7 +47,7 @@ BS3
     Switch Window          NEW
     Verifytext             Knowledge Base
     QVision.VerifyText     NEW ARTICLES
-    QVision.VerifyText     visa1
+    QVision.VerifyText     marchSub1                                               ##                                          
     Clicktext              Sales & Marketing Knowledge Base
     Switch Window          NEW
     #verifying articles in knowledge base
@@ -121,7 +121,7 @@ BS3
     ClickText              Select a List View: Knowledge
     ClickText              All Articles                partial_match=False
     ClickElement           xpath= //span[contains(text(),'Created Date')]
-    Clicktext               marchSub
+    Clicktext               marchSub1                                     ##
     Clicktext              Edit as Draft               anchor=Archieve
     Verifytext             The published version will remain online until you publish this draft.
     Clicktext              Edit as Draft               anchor=Cancel
