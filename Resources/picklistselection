@@ -1,0 +1,5 @@
+${selected}=           GetPicklist                 Rating                      selected=True
+    IF                     "${selected}" == "Referrer"
+        Picklist           Rating                      Reseller
+    END
+    GetPicklist                 Rating                  selected=True
