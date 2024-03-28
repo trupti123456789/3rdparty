@@ -3,3 +3,7 @@ ${selected}=           GetPicklist                 Rating                      s
         Picklist           Rating                      Reseller
     END
     GetPicklist                 Rating                  selected=True
+
+
+# if the rating picklist value is "Refferer" then make it "Reseller"
+otherwise keep the same
