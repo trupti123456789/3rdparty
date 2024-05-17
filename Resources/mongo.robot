@@ -11,6 +11,7 @@ ${COLLECTION}=                 crtcollection
 
 *** Test Cases ***
 Connect To MongoDB And Perform Operations
+    [Tags]        mongo
     # Connect to the database
     Connect                    uri=mongodb+srv://${USER}:${PW}@${CLUSTER}              dbname=${DBNAME}
 
